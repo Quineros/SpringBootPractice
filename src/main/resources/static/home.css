@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(to right , #cb2d3e , #ef473a);
+}
+
+.material-icons{
+    position: relative;
+    top: -52%;
+    left: 73%;
+    transform:  translate(-50%,50%);
+    height: 35px;
+}
+.searchBoxG {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBoxG:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBoxG:hover > .searchButton {
+
+    color : #2f3640;
+}
+
+.searchBoxY {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBoxY:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBoxY:hover > .searchButton {
+
+    color : #2f3640;
+}
+
+.searchBoxD {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBoxD:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBoxD:hover > .searchButton {
+
+    color : #2f3640;
+}
+
+.searchButton {
+    cursor: pointer;
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+    .searchBoxG:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+    .searchBoxY:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+    .searchBoxD:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+}

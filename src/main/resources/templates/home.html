@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link href="../static/home.scss" th:href="@{/home.css}" rel="stylesheet">
+</head>
+<body>
+
+
+
+<form action="google" role="search" class="google">
+<div class="searchBoxG">
+
+    <input class="searchInput" type="text" name="q" placeholder="Search with Google...">
+    <button class="searchButton" href="#">
+        <img class="material-icons" src="/google-logo.png" />
+    </button>
+</div>
+</form>
+
+<form action="yandex" role="search" class="yandex">
+    <div class="searchBoxY">
+
+        <input class="searchInput" type="text" name="q" placeholder="Search with Yandex...">
+        <button class="searchButton" href="#">
+            <img class="material-icons" src="/yandex-logo.png" />
+        </button>
+    </div>
+</form>
+
+<form action="duck" role="search" class="duck">
+    <div class="searchBoxD">
+
+        <input class="searchInput" type="text" name="q" placeholder="Search with DuckDuckGo...">
+        <button class="searchButton" href="#">
+            <img class="material-icons" src="/duckduckgo-logo.png" />
+        </button>
+    </div>
+</form>
+
+</body>
+</html>
